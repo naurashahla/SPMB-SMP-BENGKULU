@@ -97,7 +97,7 @@
 <div class="max-w-[1280px] w-full mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 flex-1">
 <div class="relative group">
 <input class="hidden card-radio" id="akademik" name="sub_jalur" type="radio"/>
-<label class="block h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="akademik">
+<label class="flex flex-col h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="akademik">
 <div class="absolute top-6 right-6 check-icon hidden size-8 bg-primary rounded-full items-center justify-center text-white">
 <span class="material-symbols-outlined text-xl">check</span>
 </div>
@@ -106,8 +106,8 @@
 </div>
 <h3 class="text-xl font-extrabold mb-2 dark:text-white uppercase tracking-tight">Prestasi Akademik</h3>
 <p class="text-gray-500 dark:text-gray-400 text-sm mb-8">Fokus pada akumulasi Nilai Indikator Mutu (NIM) dan predikat Juara Umum sekolah.</p>
-<div class="space-y-6">
-<div>
+<div class="flex flex-col flex-1">
+<div class="mb-6">
 <span class="text-[10px] font-black text-primary tracking-widest uppercase">Persyaratan Utama</span>
 <ul class="mt-3 space-y-3">
 <li class="flex gap-3 text-sm text-gray-600 dark:text-gray-300">
@@ -124,7 +124,7 @@
 </li>
 </ul>
 </div>
-<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl">
+<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl mt-auto">
 <div class="flex items-center justify-between mb-1">
 <span class="text-xs font-bold text-gray-500">Bobot Penilaian</span>
 <span class="text-[11px] md:text-xs font-black text-primary text-right whitespace-nowrap">MAX 100 POIN</span>
@@ -138,7 +138,7 @@
 </div>
 <div class="relative group">
 <input class="hidden card-radio" id="non-akademik" name="sub_jalur" type="radio"/>
-<label class="block h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="non-akademik">
+<label class="flex flex-col h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="non-akademik">
 <div class="absolute top-6 right-6 check-icon hidden size-8 bg-primary rounded-full items-center justify-center text-white">
 <span class="material-symbols-outlined text-xl">check</span>
 </div>
@@ -147,8 +147,8 @@
 </div>
 <h3 class="text-xl font-extrabold mb-2 dark:text-white uppercase tracking-tight">Prestasi Non-Akademik</h3>
 <p class="text-gray-500 dark:text-gray-400 text-sm mb-8">Apresiasi bagi pemenang kompetisi pada bidang Olahraga, Sains, Seni, dan Keagamaan.</p>
-<div class="space-y-6">
-<div>
+<div class="flex flex-col flex-1">
+<div class="mb-6">
 <span class="text-[10px] font-black text-orange-600 tracking-widest uppercase">Persyaratan Utama</span>
 <ul class="mt-3 space-y-3">
 <li class="flex gap-3 text-sm text-gray-600 dark:text-gray-300">
@@ -165,7 +165,7 @@
 </li>
 </ul>
 </div>
-<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl">
+<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl mt-auto">
 <div class="flex items-center justify-between mb-1">
 <span class="text-xs font-bold text-gray-500">Bobot Penilaian</span>
 <span class="text-[11px] md:text-xs font-black text-orange-600 text-right whitespace-nowrap">BERDASARKAN JENJANG</span>
@@ -179,7 +179,7 @@
 </div>
 <div class="relative group">
 <input class="hidden card-radio" id="tahfidz" name="sub_jalur" type="radio"/>
-<label class="block h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="tahfidz">
+<label class="flex flex-col h-full bg-white dark:bg-gray-800 border-2 border-transparent rounded-3xl p-8 shadow-sm cursor-pointer hover:border-primary/30 transition-all relative overflow-hidden" for="tahfidz">
 <div class="absolute top-6 right-6 check-icon hidden size-8 bg-primary rounded-full items-center justify-center text-white">
 <span class="material-symbols-outlined text-xl">check</span>
 </div>
@@ -188,8 +188,8 @@
 </div>
 <h3 class="text-xl font-extrabold mb-2 dark:text-white uppercase tracking-tight">Tahfidz Quran</h3>
 <p class="text-gray-500 dark:text-gray-400 text-sm mb-8">Untuk calon siswa dengan hafalan Al-Qur'an, sertifikat pendukung, dan verifikasi ulang.</p>
-<div class="space-y-6">
-<div>
+<div class="flex flex-col flex-1">
+<div class="mb-6">
 <span class="text-[10px] font-black text-purple-600 tracking-widest uppercase">Persyaratan Utama</span>
 <ul class="mt-3 space-y-3">
 <li class="flex gap-3 text-sm text-gray-600 dark:text-gray-300">
@@ -200,13 +200,9 @@
 <span class="material-symbols-outlined text-purple-600 text-lg">stars</span>
 <span>Sertifikat Lomba Tahfidz atau Tasmi'</span>
 </li>
-<li class="flex gap-3 text-sm text-gray-600 dark:text-gray-300">
-<span class="material-symbols-outlined text-purple-600 text-lg">stars</span>
-<span>Wajib Tashih Ulang dan Wawancara</span>
-</li>
 </ul>
 </div>
-<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl">
+<div class="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-xl mt-auto">
 <div class="flex items-center justify-between mb-1">
 <span class="text-xs font-bold text-gray-500">Bobot Penilaian</span>
 <span class="text-[11px] md:text-xs font-black text-purple-600 text-right whitespace-nowrap">SESUAI JUKNIS DISDIK</span>
